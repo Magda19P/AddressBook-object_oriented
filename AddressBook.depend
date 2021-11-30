@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1637790738 source:e:\przyszly_programista\addressbook\adresat.cpp
+	"Adresat.h"
+
+1637790738 e:\przyszly_programista\addressbook\adresat.h
+	<iostream>
+	"MetodyPomocnicze.h"
+
+1637790738 e:\przyszly_programista\addressbook\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1638308602 source:e:\przyszly_programista\addressbook\adresatmenedzer.cpp
+	"AdresatMenedzer.h"
+
+1638308008 e:\przyszly_programista\addressbook\adresatmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+
+1638308582 e:\przyszly_programista\addressbook\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1637790736 e:\przyszly_programista\addressbook\pliktekstowy.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1637790736 source:e:\przyszly_programista\addressbook\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1637790736 e:\przyszly_programista\addressbook\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikMenedzer.h"
+	"AdresatMenedzer.h"
+	"MetodyPomocnicze.h"
+
+1637790738 e:\przyszly_programista\addressbook\uzytkownikmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1637790738 e:\przyszly_programista\addressbook\uzytkownik.h
+	<iostream>
+
+1637877778 e:\przyszly_programista\addressbook\plikzuzytkownikami.h
+	<fstream>
+	<iostream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1637790738 source:e:\przyszly_programista\addressbook\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1637790738 source:e:\przyszly_programista\addressbook\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1637790736 source:e:\przyszly_programista\addressbook\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1638308296 source:e:\przyszly_programista\addressbook\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1637877924 source:e:\przyszly_programista\addressbook\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1637790738 source:e:\przyszly_programista\addressbook\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1637794184 source:e:\przyszly_programista\addressbook\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
+
