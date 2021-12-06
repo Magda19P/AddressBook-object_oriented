@@ -1,4 +1,5 @@
 #include "PlikZUzytkownikami.h"
+#include "Uzytkownik.h"
 
 bool PlikZUzytkownikami::czyPlikJestPusty(fstream &plikTekstowy)
 {
@@ -99,7 +100,7 @@ Uzytkownik PlikZUzytkownikami :: pobierzDaneUzytkownika(string daneJednegoUzytko
     return uzytkownik;
 }
 
-void PlikZUzytkownikami :: zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkownik>& uzytkownicy) {
+void PlikZUzytkownikami :: zaktualizujHaslo(vector <Uzytkownik>& uzytkownicy) {
     fstream plikTekstowy;
     string liniaZDanymiUzytkownika = "";
     vector <Uzytkownik>::iterator itrKoniec = --uzytkownicy.end();
@@ -122,3 +123,6 @@ void PlikZUzytkownikami :: zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkowni
     }
     plikTekstowy.close();
 }
+
+
+
