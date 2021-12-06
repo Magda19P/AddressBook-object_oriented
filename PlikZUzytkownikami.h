@@ -23,7 +23,7 @@ public:
     PlikZUzytkownikami(string nazwaPliku): PlikTekstowy(nazwaPliku) {};  //lista inicjalizacyjna
     void dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik);
     vector <Uzytkownik> wczytajUzytkownikowZPliku();
-    void zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkownik> &uzytkownicy);
+    void zaktualizujHaslo(vector <Uzytkownik> &uzytkownicy);
 };
 
 #endif
