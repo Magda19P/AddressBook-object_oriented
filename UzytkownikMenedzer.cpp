@@ -124,6 +124,7 @@ void UzytkownikMenedzer :: zmianaHaslaZalogowanegoUzytkownika() {
             system("pause");
         }
     }
+    plikZUzytkownikami.zaktualizujHaslo(uzytkownicy);
 }
 
 void UzytkownikMenedzer :: wylogowanieUzytkownika() {
