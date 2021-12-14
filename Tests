@@ -1,0 +1,25 @@
+#include"UzytkownikMenedzer.h"
+#include "PlikZUzytkownikami.h"
+#include <vector>
+int _main()
+{
+    vector <Uzytkownik> uzytkownicy;
+    UzytkownikMenedzer uzytkownikMenedzer("Uzytkownicy-test.txt");
+    uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
+    PlikZUzytkownikami plikZUzytkownikami("Uzytkownicy-test.txt");
+    plikZUzytkownikami.zaktualizujHaslo(uzytkownicy);
+}
+
+
+//TESTY UzytkownikMenedzer
+#include"UzytkownikMenedzer.h"
+#include "PlikZUzytkownikami.h"
+#include <vector>
+int main()
+{
+    vector <Uzytkownik> uzytkownicy;
+    UzytkownikMenedzer uzytkownikMenedzer("Uzytkownicy-test.txt");
+    uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
+    PlikZUzytkownikami plikZUzytkownikami("Uzytkownicy-test.txt");
+    plikZUzytkownikami.zaktualizujHaslo(uzytkownicy);
+}
