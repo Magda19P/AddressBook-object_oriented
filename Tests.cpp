@@ -3,11 +3,21 @@
 #include <vector>
 int _main()
 {
-    vector <Uzytkownik> uzytkownicy;
-    UzytkownikMenedzer uzytkownikMenedzer("Uzytkownicy-test.txt");
-    uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
-    PlikZUzytkownikami plikZUzytkownikami("Uzytkownicy-test.txt");
-    plikZUzytkownikami.zaktualizujHaslo(uzytkownicy);
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
+
+    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
+
+    ksiazkaAdresowa.logowanieUzytkownika();
+
+    ksiazkaAdresowa.dodajAdresata();
+
+    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
+
+    ksiazkaAdresowa.wylogowanieUzytkownika();
+
+    ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
+
+    return 0;
 }
 
 
