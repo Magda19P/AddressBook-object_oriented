@@ -53,7 +53,7 @@ int KsiazkaAdresowa :: dodajAdresata() {
         adresatMenedzer -> dodajAdresata();
     } else {
 
-        cout << "Aby dodaæ adresata nale¿y siê najpierw zalogowaæ " << endl;
+        cout << "Aby dodaÄ‡ adresata naleÅ¼y siÄ™ najpierw zalogowaÄ‡ " << endl;
         system ("pause");
     }
 }
@@ -79,4 +79,16 @@ void KsiazkaAdresowa :: wyszukajAdresatowPoImieniu(){
 
 void KsiazkaAdresowa :: wyszukajAdresatowPoNazwisku(){
     adresatMenedzer -> wyszukajAdresatowPoNazwisku();
+}
+
+int KsiazkaAdresowa :: usunAdresata(){
+    adresatMenedzer -> usunAdresata();
+}
+
+void KsiazkaAdresowa :: edytujAdresata(){
+    adresatMenedzer -> edytujAdresata();
+}
+
+int KsiazkaAdresowa :: podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata){
+    adresatMenedzer -> podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(idUsuwanegoAdresata);
 }
