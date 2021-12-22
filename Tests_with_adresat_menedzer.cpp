@@ -32,8 +32,6 @@ int main()
     AdresatMenedzer adresatMenedzer("Adresaci_test.txt", 2);
 
     adresatMenedzer.dodajAdresata();
-    adresatMenedzer.wyszukajAdresatowPoImieniu();
-    adresatMenedzer.wyszukajAdresatowPoNazwisku();
     adresatMenedzer.edytujAdresata();
     adresatMenedzer.wyswietlWszystkichAdresatow();
     adresatMenedzer.usunAdresata();
